@@ -7,10 +7,6 @@ function App() {
     <div className="app">
       <Header />
       <Home />
-      {/* header */}
-      {/* banner */}
-      {/* cards */}
-      {/* footer */}
     </div>
   );
 }
