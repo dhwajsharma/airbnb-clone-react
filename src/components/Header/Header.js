@@ -3,11 +3,14 @@ import "./Header.css"
 import rentbnb from "../../assets/rentbnb.png"
 import { ExpandMore, Language, Search } from '@material-ui/icons'
 import { Avatar } from '@material-ui/core'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     return (
         <div className="header">
-            <img className="header__icon" src={rentbnb} alt="" />
+            <Link to="/">
+                <img className="header__icon" src={rentbnb} alt="" />
+            </Link>
 
             <div className="header__center">
                 <input type="text" />
